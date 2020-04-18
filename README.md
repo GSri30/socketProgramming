@@ -31,7 +31,7 @@ python client.py
 * Website: https://gsri30.github.io/
 * Twitter: [@SriHarshaG6](https://twitter.com/SriHarshaG6)
 * Github: [@GSri30](https://github.com/GSri30)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/sri-harsha-g-15534a18a](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/sri-harsha-g-15534a18a)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/sri-harsha-g-15534a18a](https://linkedin.com/in/sri-harsha-g-15534a18a/)
 
 ## Show your support
 
