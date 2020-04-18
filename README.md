@@ -20,7 +20,7 @@ python client.py
 
 ## Author
 
-👤 **GSri30**
+👤 **Sri Harsha G**
 
 * Website: https://gsri30.github.io/
 * Twitter: [@SriHarshaG6](https://twitter.com/SriHarshaG6)
@@ -32,4 +32,4 @@ python client.py
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️
+This README was generated with ❤️
