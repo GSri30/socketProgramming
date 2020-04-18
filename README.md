@@ -6,8 +6,11 @@
 </p>
 
 > This repo consists of various types of socket programmings available. Here we use python to create the server and client files.Usually we can make a single server and single client program using basic socket programming. The big challenge we face is when we try to implement multi-client program.
+
 > Multi-client program can be made in numerous number of methods.(Which even differ in functionality).
+
 > One of the core methods is to use multi-threading.But it's generally not prefereble due to it's uncertain behaviour in many a times.And more over its even difficult to handle specific requests from a particular client.
+
 > Another way is to use select module, which infact makes it easier for you to handle even specific requests in multi-client programs. Here you even get a timeout feature which can be used directly.
 
 ## Install
