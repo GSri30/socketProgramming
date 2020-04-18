@@ -9,13 +9,12 @@
 
 ## Install
 
-```sh
-python server.py python client.py
-```
+> No dependencies required
 
 ## Usage
 
 ```sh
+python server.py
 python client.py
 ```
 
@@ -33,4 +32,4 @@ python client.py
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️
